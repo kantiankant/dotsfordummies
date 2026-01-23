@@ -1,11 +1,11 @@
 !#/bin/zsh
 
-mv ~/dotsfordummies/fastfetch/ ~/.config/
+cp -r ~/dotsfordummies/fastfetch/ ~/.config/
 
-mv ~/dotsfordummies/ghostty/ ~/.config/
+cp -r ~/dotsfordummies/ghostty/ ~/.config/
 
-mv ~/dotsfordummies/hypr/ ~/.config/
+cp -r ~/dotsfordummies/hypr/ ~/.config/
 
-mv ~/dotsfordummies/waybar/ ~/.config/
+cp -r ~/dotsfordummies/waybar/ ~/.config/
 
-mv ~/dotsfordummies/mako/ ~/.config
+cp -r ~/dotsfordummies/mako/ ~/.config
