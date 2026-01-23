@@ -1,0 +1,86 @@
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono Nerd Font";
+    font-size: 9px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #DDDDDD;
+    color: #000000;  
+    transition-property: transparent-background;
+    transition-duration: .3s;
+}
+
+
+#clock, #pulseaudio, #backlight, #battery, #network, #tray, #custom-idk {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #000000;
+}
+
+
+@keyframes charging_pulse {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.4;
+    }
+}
+
+
+#battery.charging {
+    color: #000000;
+    animation-name: charging_pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+#battery.warning, #battery.critical {
+    color: #000000; 
+}
+
+
+
+#workspaces {
+    padding: 0 1px;
+    background-color: transparent;
+}
+
+#workspaces button, #workspaces button label {
+    color: #000000;
+    background-color: transparent;
+    border-bottom: none; 
+    box-shadow: none;
+}
+
+#workspaces button.active label {
+    color: #000000;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+
+
+#custom-idk {
+    font-size: 16px; 
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+window#waybar.empty {
+    background-color: transparent;
+}
+
+#cpu {
+    padding: 0 10px;
+    background-color: #DDDDDD; /* Temporary bright color to see it */
+    color: #000000;
+}
+
