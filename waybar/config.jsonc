@@ -81,7 +81,8 @@
         "format-ethernet": "   {bandwidthDownBits}",
         "format-disconnected": "   No Network",
         "interval": 5,
-        "tooltip": true
+        "tooltip": true,
+        "on-click": "ghostty -e nmtui"
     },
 
     "tray": {
