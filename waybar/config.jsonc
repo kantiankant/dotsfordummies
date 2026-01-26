@@ -15,7 +15,7 @@
 
     "custom/idk": {
         "format": "<span font='Symbols Nerd Font'>\uf31f</span>",
-        "on-click": "ghostty -e doas pacman -Syyu",
+        "on-click": "ghostty -e ~/artix-update.sh",
         "tooltip": false
     },
 
