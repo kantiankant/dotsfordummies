@@ -78,9 +78,14 @@ window#waybar.empty {
     background-color: transparent;
 }
 
-#cpu {
+#custom-weather {
     padding: 0 10px;
-    background-color: #DDDDDD; /* Temporary bright color to see it */
     color: #000000;
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    margin: 5px;
 }
 
+#custom-weather:hover {
+    background-color: #DDDDDD;
+}
