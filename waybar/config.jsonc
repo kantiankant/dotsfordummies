@@ -17,7 +17,7 @@
 
     "custom/idk": {
         "format": "<span font='Symbols Nerd Font'>\uf31f</span>",
-        "on-click": "rofi -show drun",
+        "on-click": "ghostty -e ~/artix-update.sh",
         "tooltip": false
     },
 
