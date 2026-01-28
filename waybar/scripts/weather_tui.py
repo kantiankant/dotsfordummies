@@ -57,7 +57,7 @@ def display_weather(weather_data):
     emoji = get_weather_emoji(code)
     
     print("╔══════════════════════════════════════════════╗")
-    print("║     Singapore Weather - Live Updates        ║")
+    print("║      Singapore Weather - Live Updates        ║")
     print("╚══════════════════════════════════════════════╝")
     print()
     print(f"  {emoji} {desc}")
