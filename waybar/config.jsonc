@@ -105,7 +105,14 @@
     "return-type": "json",
     "interval": 60,
     "tooltip": true,
-    "on-click": "ghostty -e python3 ~/weather_tui.py"
+    "on-click": "ghostty -e ~/.config/waybar/scripts/weather_tui.py"
+
+
+
+
+
+
+
 }
 
 }

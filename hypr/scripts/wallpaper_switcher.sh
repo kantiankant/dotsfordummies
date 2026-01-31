@@ -36,7 +36,7 @@ echo $((idx + 1)) >"$STATE_FILE"
 # --transition-step: Controls speed (2 is slow/smooth, 255 is instant)
 # --transition-duration: Length in seconds (decimal allowed)
 swww img "$selectedWallpaper" \
-  --transition-type fade \
-  --transition-step 2 \
+  --transition-type wipe \
+  --transition-angle 30 \
   --transition-duration 0.5 \
-  --transition-fps 60
+  --transition-fps 144
